@@ -10,6 +10,7 @@ Dự án được chia thành các giai đoạn cụ thể:
 4. **EDA & Community Analysis:** Phân tích sâu (EDA) vào các cộng đồng/cụm sản phẩm đã được phân chia.
 
 ## Cấu trúc dự án
+```bash
 ├── app/                    
 ├── asset/                   
 ├── notebook/                   
@@ -23,7 +24,7 @@ Dự án được chia thành các giai đoạn cụ thể:
 ├── requirements.txt          
 ├── setup.py                  
 └── README.md
-
+```
 ## Kết quả trực quan (Visualizations)
 
 Dưới đây là một số kết quả nổi bật từ quá trình gom cụm và phát hiện cộng đồng sản phẩm:
