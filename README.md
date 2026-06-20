@@ -10,10 +10,9 @@ Dự án được chia thành các giai đoạn cụ thể:
 4. **EDA & Community Analysis:** Phân tích sâu (EDA) vào các cộng đồng/cụm sản phẩm đã được phân chia.
 
 ## Cấu trúc dự án
-
-├── app/                        # Chứa source code của ứng dụng (app.py)
-├── asset/                      # Thư mục chứa hình ảnh biểu đồ, kết quả trực quan
-├── notebook/                   # Các file Jupyter Notebook phân tích từng bước
+├── app/                    
+├── asset/                   
+├── notebook/                   
 │   ├── 1_overview.ipynb
 │   ├── 2_descriptive_network_analysis.ipynb
 │   ├── 3_preprocessing.ipynb
@@ -21,8 +20,8 @@ Dự án được chia thành các giai đoạn cụ thể:
 │   ├── 5_preprocessed_graph_community_detection.ipynb
 │   ├── 6_graph_information_eda.ipynb
 │   └── 7_community_analysis.ipynb
-├── requirements.txt            # Các thư viện Python cần thiết
-├── setup.py                    # Script cài đặt dự án
+├── requirements.txt          
+├── setup.py                  
 └── README.md
 
 ## Kết quả trực quan (Visualizations)
