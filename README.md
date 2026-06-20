@@ -55,7 +55,7 @@ Trực quan hóa các phân khúc/nhóm sản phẩm được phân chia dựa t
 
 | Thành viên | Nhiệm vụ |
 | :--- | :--- |
-| **Huỳnh Trần Bảo Việt** |  |
+| **Huỳnh Trần Bảo Việt** | App, Community Detection, Preprocess  |
 | **Lương Quốc Trung** | EDA, Visualize, Preprocess |
-| **Trần Thành Đạt** |  |
-| **Võ Nguyên Bảo** |  |
+| **Trần Thành Đạt** | App, EDA, Phân cụm KMeans |
+| **Võ Nguyên Bảo** | Áp dụng 3 thuật toán Infomap, Label Propagation, Leiden và so sánh 3 thuật toán |
