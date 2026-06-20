@@ -52,3 +52,10 @@ Trực quan hóa các phân khúc/nhóm sản phẩm được phân chia dựa t
 * **Phân tích mạng lưới:** NetworkX (hoặc thư viện đồ thị bạn dùng)
 * **Machine Learning / Clustering:** Scikit-learn (K-Means)
 * **Trực quan hóa:** Matplotlib, Seaborn
+
+| Thành viên | Nhiệm vụ |
+| :--- | :--- |
+| **Huỳnh Trần Bảo Việt** |  |
+| **Lương Quốc Trung** | EDA, Visualize, Preprocess |
+| **Trần Thành Đạt** |  |
+| **Võ Nguyên Bảo** |  |
