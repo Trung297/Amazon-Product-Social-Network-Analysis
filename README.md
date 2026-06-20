@@ -27,13 +27,23 @@ Dự án được chia thành các giai đoạn cụ thể:
 ```
 ## Kết quả trực quan (Visualizations)
 
-Dưới đây là một số kết quả nổi bật từ quá trình gom cụm và phát hiện cộng đồng sản phẩm:
+Dưới đây là toàn bộ các kết quả trực quan hóa thu được trong quá trình phân tích mạng lưới sản phẩm Amazon:
 
-**1. Mạng lưới tương tác giữa các cộng đồng (Community Interaction Graph)**
-![Community Interaction](asset/community_interaction_graph.png)
+### 1. Phân tích Cộng đồng trên Đồ thị Gốc 
+Mạng lưới cộng đồng ban đầu khi chưa qua xử lý lọc nhiễu, các sản phẩm liên kết với nhau thành các cụm lớn và dày đặc.
+![Original Graph Community](asset/original_community.png)
 
-**2. Gom cụm K-Means (K-Means Clusters)**
-![K-Means Clustering](asset/kmeans_clusters_visualization.png)
+### 2. Phân tích Cộng đồng sau khi Xử lý dữ liệu 
+Mạng lưới sau khi đã được làm sạch, loại bỏ bớt các kết nối nhiễu hoặc các nút đơn lẻ, giúp cấu trúc các cộng đồng sản phẩm lộ rõ và dễ phân tách hơn.
+![Preprocessed Graph Community](asset/preprocessed_community.png)
+
+### 3. Mạng lưới tương tác giữa các Cộng đồng 
+Biểu đồ thể hiện cách các cộng đồng sản phẩm lớn tương tác và có mối liên hệ mua kèm (co-purchasing) với nhau.
+![Community Interaction Graph](asset/community_interaction_graph.png)
+
+### 4. Kết quả Gom cụm bằng Thuật toán K-Means 
+Trực quan hóa các phân khúc/nhóm sản phẩm được phân chia dựa trên các đặc trưng cấu trúc đồ thị thông qua thuật toán học không giám sát K-Means.
+![K-Means Clusters Visualization](asset/kmeans_clusters_visualization.png)
 
 
 ## 🛠️ Công nghệ & Thư viện
